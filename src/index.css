@@ -26,7 +26,9 @@ body {
   min-height: 100vh;
   color: var(--color-light);
   background-color: var(--color-darkest);
-  padding: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .app {
@@ -34,14 +36,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 30px;
+  width: 350px;
 }
 
 .main {
-  width: 50rem;
+  width: 100%;
 }
 
 .app-header {
-  width: 66rem;
+  width: 100%;
   margin-bottom: 4rem;
   display: flex;
   align-items: center;
@@ -58,12 +62,12 @@ body {
 }
 
 img {
-  width: 14rem;
+  width: 12rem;
 }
 
 h1 {
   font-family: "Codystar";
-  font-size: 5.6rem;
+  font-size: 4.3rem;
 }
 
 h2 {
@@ -90,7 +94,7 @@ h4 {
 }
 
 .progress {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   display: grid;
   justify-content: space-between;
   gap: 1.2rem;
